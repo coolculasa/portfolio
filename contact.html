@@ -8,6 +8,7 @@
 
     <!-- CSS file for Navbar -->
     <link rel="stylesheet" href="style.css">
+    
 </head>
 
 
@@ -15,12 +16,17 @@
 
 <!-- Start Nav -->
 <nav class="navbar navbar-expand-sm navbar-dark bg-primary fixed-top">
-    <span class="navbar-brand mb-1 h1">Valerie Lucas</span>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarMenu">
-      <ul class="nav navbar-nav mr-auto">
+    <!-- Brand -->
+    <span class="navbar-brand" href="#">Valerie Lucas</span>
+    
+    <!-- Collapsible Button (Hamburger) -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+     <span class="navbar-toggler-icon"></span>
+     </button>
+    
+    <!-- Navbar links -->
+     <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="nav navbar-nav">
         <li class="nav-item">
           <a class="nav-link" href="index.html">About</a>
         </li>
@@ -40,25 +46,29 @@
       <div class="col-md-8">
           <h1>Contact Me</h1>
         <div class="row">
-            <form class ="form">
-                <div class="form-group">
-                    <label for="formGroupExampleInput">Name</label>
-                    <input type="text" class"form-control" id="formGroupExampleInput">
-                </div>
+         
 
-                <div class="form-group">
-                        <label for="formGroupExampleInput">Email</label>
-                        <input type="text" class"form-control" id="formGroupExampleInput">
-                </div>
-
-                <div class="form-group">
-                        <label for="formGroupExampleInput">Message</label>
-                        <input type="text" class"form-control" id="formGroupExampleInput">
-                </div>
-
-                <button type="submit" class"btn btn-primary mb2">Submit</button>
-
+          <form>
+                
+              <div class="form-group">
+                  <label for="formControlName">Name</label>
+                      <input type="email" class="form-control" id="formControlName">
+              </div>
+                
+              <div class="form-group">
+                  <label for="formControlEmail">Email address</label>
+                      <input type="email" class="form-control" id="formControlEmail">
+              </div>
+                    
+              <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Message</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                
+              <button type="submit" class"btn btn-primary mb2">Submit</button>
+                
             </form>
+
 
         </div>
     </div>
@@ -68,3 +78,5 @@
 
 
 </html>
+
+
