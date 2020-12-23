@@ -12,3 +12,11 @@ Screenshots of the pages are as follows:
  
 The deployed URL is https://coolculasa.github.io/portfolio
 The URL of the github repository is https://github.com/coolculasa/portfolio
+
+All HTML pages were validated using https://validator.w3.org/
+
+Results are shown in the following screenshots:
+
+![ScreenShot](/Screenshots/checkindex.png)
+![ScreenShot](/Screenshots/checkportfolio.png)
+![ScreenShot](/Screenshots/checkcontact.png)
