@@ -7,8 +7,8 @@ The website contains personalized information for Valerie Lucas. It uses the Boo
 Screenshots of the pages are as follows:
 
 ![ScreenShot](/Screenshots/about.png)
-![ScreenShot](/Screenshots/portfolio.png)
-![ScreenShot](/Screenshots/contact.png)
+![ScreenShot](/Screenshots/portfolio.PNG)
+![ScreenShot](/Screenshots/contact.PNG)
  
 The deployed URL is https://coolculasa.github.io/portfolio
 The URL of the github repository is https://github.com/coolculasa/portfolio
