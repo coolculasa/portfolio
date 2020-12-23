@@ -7,5 +7,5 @@ The website contains personalized information for Valerie Lucas. It uses the Boo
 
 Screenshots of the pages are as follows:
 
-![ScreenShot](/screenshots/about.png)
+![ScreenShot](/Screenshots/about.png)
  
